@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #679289;
+}
+.main{
+    /*background-color: white;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.input-div{
+    border: 2px solid #1d7874;
+    width: 500px;
+    height: 100px;
+    background-color: #f4c095;
+    padding: 10px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.first{
+    flex-direction: column;
+    justify-content: center;
+}
+.output{
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input{
+    width: 100%;
+    padding: 7px;
+    margin: 2px 0 5px 0;
+    border: 0;
+    outline: none;
+    border-radius: 3px;
+    background-color: white;
+}
+button{
+    cursor: pointer;
+}
+.black-btn{
+    width: 70px;
+    padding: 7px;
+    margin: 2px 0 5px 0;
+    border: 0;
+    outline: none;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 50px;
+}
+.outter{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #ff0000;
+    -webkit-text-stroke: 1px #000000;
+}
